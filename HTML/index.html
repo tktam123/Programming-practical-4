@@ -3,56 +3,162 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <h1 style="background-color :#c5ead0;"><strong>VIOLIN</strong></h1>
-</head>
-<body>The violin is a string instrument known for its expressive range, versatility, and beautiful sound. <br> 
-        It is one of the most popular instruments in classical music and is widely used in various music genres, <br>
-        including folk, jazz, and contemporary styles <br>
-</body>
-<p> <strong>Structure of the Violin</strong> </p>
+    <title>The Violin</title>
+    <style>
+        /* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        /* General Styling */
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
 
-<ul>
-<li>Body: The main part of the violin, made of wood, usually maple, spruce, and ebony. It has a hollow structure, which helps produce a resonant sound.</li>
-<li>Strings: The violin has four strings, tuned in perfect fifths: G, D, A, and E, from lowest to highest. These strings are made of gut, synthetic materials, or steel.</li>
-<li>Bow: The violin is played with a bow, which is a stick of wood (usually pernambuco or carbon fiber) strung with horsehair. The bow is drawn across the strings to produce sound.</li>
-<li>Fingerboard: The player presses the strings against the fingerboard to change the pitch of the notes.</li>
-<li>Bridge and Sound Post: The bridge supports the strings, transferring vibrations to the violin's body, while the sound post inside the violin helps maintain its structure and sound quality.</li>
-</ul>
+        /* Header Styling */
+        header {
+            text-align: center;
+            background-color: #c5ead0;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
 
-<img src="OIP.jpeg" alt="description" width="150px" height="250px">
-<img src="OIP (1).jpeg" alt="description" width="150px" height="250px">
-<br>
-<a href="https://en.wikipedia.org/wiki/Violin">Visit the brief introduction of violin</a>
+        header h1 {
+            font-size: 2.5em;
+            color: #333;
+        }
 
-<style>
-    table, th, td {
-      border:3px solid rgb(72, 17, 144);
-    }
+        /* Main Content Styling */
+        main {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Section Styling */
+        section {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #444;
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin-bottom: 10px;
+        }
+
+        /* Image Gallery */
+        .gallery {
+            display: flex;
+            gap: 10px;
+            margin: 20px 0;
+            justify-content: center;
+        }
+
+        .gallery img {
+            width: 150px;
+            height: 250px;
+            border-radius: 5px;
+            object-fit: cover;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Table Styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border: 2px solid #481190;
+        }
+
+        th {
+            background-color: #481190;
+            color: white;
+            font-weight: bold;
+        }
+
+        /* Link Styling */
+        a {
+            color: #0073e6;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
     </style>
-<table style="width:100%">
-  <tr>
-    <th>BRAND</th>
-    <th>PRICE</th>
-    <th>AUTHOR</th>
-    <th>COUNTRY</th>
-  </tr>
-  <tr>
-    <td>The Messiah </td>
-    <td>$2,000,000</td>
-    <td>Antonio Stradivari</td>
-    <td>Germany</td>
-  </tr>
-  <tr>
-    <td>The Vieuxtemps</td>
-    <td>$5,700,000</td>
-    <td>Guarneri del Gesù</td>
-    <td>Mexico</td>
-  </tr>
-</table>
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 <body>
+    <header>
+        <h1><strong>Violin</strong></h1>
+    </header>
     
+    <main>
+        <section>
+            <p>The violin is a string instrument known for its expressive range, versatility, and beautiful sound. It is one of the most popular instruments in classical music and is widely used in various music genres, including folk, jazz, and contemporary styles.</p>
+        </section>
+
+        <section>
+            <h2>Structure of the Violin</h2>
+            <ul>
+                <li><strong>Body:</strong> The main part of the violin, made of wood (usually maple, spruce, and ebony). It has a hollow structure, which helps produce a resonant sound.</li>
+                <li><strong>Strings:</strong> The violin has four strings, tuned in perfect fifths: G, D, A, and E, from lowest to highest. These strings are made of gut, synthetic materials, or steel.</li>
+                <li><strong>Bow:</strong> The violin is played with a bow, typically made of wood (usually pernambuco or carbon fiber) and strung with horsehair. The bow is drawn across the strings to produce sound.</li>
+                <li><strong>Fingerboard:</strong> The player presses the strings against the fingerboard to change the pitch of the notes.</li>
+                <li><strong>Bridge and Sound Post:</strong> The bridge supports the strings, transferring vibrations to the violin's body, while the sound post inside the violin helps maintain its structure and sound quality.</li>
+            </ul>
+        </section>
+
+        <section class="gallery">
+            <img src="OIP.jpeg" alt="Image of a Violin">
+            <img src="OIP (1).jpeg" alt="Close-up of a Violin">
+        </section>
+
+        <section>
+            <a href="https://en.wikipedia.org/wiki/Violin" target="_blank">Learn more about the violin</a>
+        </section>
+
+        <section>
+            <h2>Famous Violins</h2>
+            <table>
+                <tr>
+                    <th>Brand</th>
+                    <th>Price</th>
+                    <th>Maker</th>
+                    <th>Country</th>
+                </tr>
+                <tr>
+                    <td>The Messiah</td>
+                    <td>$2,000,000</td>
+                    <td>Antonio Stradivari</td>
+                    <td>Italy</td>
+                </tr>
+                <tr>
+                    <td>The Vieuxtemps</td>
+                    <td>$5,700,000</td>
+                    <td>Guarneri del Gesù</td>
+                    <td>Italy</td>
+                </tr>
+            </table>
+        </section>
+    </main>
 </body>
 </html>
